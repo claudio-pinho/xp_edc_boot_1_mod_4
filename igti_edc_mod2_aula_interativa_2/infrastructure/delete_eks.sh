@@ -1,0 +1,1 @@
+eksctl delete cluster --region=us-east-1 --name=floral-wardrobe-1665704997
