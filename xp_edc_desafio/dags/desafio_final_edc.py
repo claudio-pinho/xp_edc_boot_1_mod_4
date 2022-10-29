@@ -72,4 +72,4 @@ with DAG(
     )
 
 inicio >> [converte_MICRODADOS_parquet]
-converte_MICRODADOS_parquet_monitor >> trigger_crawler_enem2020_microdados
+converte_MICRODADOS_parquet >> converte_MICRODADOS_parquet_monitor >> trigger_crawler_enem2020_microdados
